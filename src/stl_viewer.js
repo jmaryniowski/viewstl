@@ -41,7 +41,7 @@
 //**********************************************************
 var stl_viewer_script_path="";
 
-function StlViewer(parent_element_obj, options)
+export function StlViewer(parent_element_obj, options)
 {
 	if (!parent_element_obj) console.log ('error: no parent element');
 
